@@ -3,7 +3,7 @@ package com.infy.api;
 public class CabBookingDTO {
 
     private int tripID;
-	private Long mobileNumber;
+	private Long mobileNumbers;
     private String pickUpLocation;
     private String dropOffLocation;
     private boolean isCancelled;
@@ -51,3 +51,4 @@ public class CabBookingDTO {
 		this.isCancelled = isCancelled;
 	}
 }
+
